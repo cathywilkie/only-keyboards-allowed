@@ -55,13 +55,14 @@ html {
 }
 
 .masthead a {
-  border-bottom: .2em solid rgba(255, 255, 255, .6);
+  border-bottom: .2em solid rgba(255, 255, 255, .8);
 
   color: #fff;
   text-decoration: none;
 }
 
-.masthead a:hover {
+.masthead a:hover,
+.masthead a:focus {
   background-color: rgba(180, 220, 255, .3);
 }
 
