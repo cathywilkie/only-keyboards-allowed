@@ -21,11 +21,13 @@ html {
   border-color: #8d483b;
 }
 
-.btn:not(.btn-ghost):hover {
+.btn:not(.btn-ghost):hover,
+.btn:not(.btn-ghost):focus {
   background-color: #e88681;
 }
 
-.btn-ghost:hover {
+.btn-ghost:hover,
+.btn-ghost:focus {
   background-color: rgba(180, 220, 255, .5);
 }
 
